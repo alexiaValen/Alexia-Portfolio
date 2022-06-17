@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/7BCC861E-3D38-4A3D-BD0B-3E56B8D01921_1_105_c.jpeg);
+}
+
+
+/*NAV BAR TOP OF PAGE */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05050593;
+    position: sticky;
+    top: 0;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li {
+    font-family: monospace;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover {
+    background-color: white;
+    color: violet;
+    box-shadow: 0 0 10px white;
+} 
+
+/* ABOUT ME SECTION */
+.p-el {
+    word-wrap: break-word;
+}
+
+/* PROJECTS SECTION */
+.projects-container {
+    margin-top: 40px;
+}
+
+.projects{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+.older-projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width:fit-content
+}
+
+.projects:hover{
+    opacity: 0.5;
+    background-color: gray;
+}
+.img-fluid-img{
+    height: 350px;
+    width: 600px;
+}
+
+
+/* CONTACT ME SECTION */
+.contact-container{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
